@@ -44,3 +44,13 @@
 2-30：v2是顶层const，p2是底层const，p3既是顶层又是底层const。
 
 2-31：第一句合法，第二句不合法，第三句合法，第四句不合法，第五句合法。
+
+2-32：不合法，应该为int *p = nullptr。
+
+2-35：i为整数常量，j为整数，k为整数常量引用，p为指向整数常量的指针，j2为整数常量，k2为整数常量的引用。
+
+2-36：a为int,结束时结果为4，b为int，结束时结果为4，c为int，结束时，结果为4，d为int&，结束时结果为4。
+
+2-37：a为int 3，b为int 4，c为int 3，d为int& 3。注意，decltype不对操作数进行求值。
+
+2-38：相同：int i = 4;auto a = i;decltype(i) b = i;  不同：const int i = 4;auto a = i;decltype(i) b = i;。
