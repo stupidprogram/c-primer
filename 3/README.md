@@ -27,3 +27,12 @@ ivec.push_back(42);
 
 3-19:
 1    vector<int> vec(10,42);  2    vector<int> vec{42,42,42,42,42,42,42,42,42,42};  3    vector<int> vec = {42,42,42,42,42,42,42,42,42,42};
+
+3-22:
+for (auto it = text.begin(); it != text.end() && !it->empty(); ++it)
+{
+    for (auto &i : *it)
+    {
+        cout << toupper(i) ;
+    }
+}
