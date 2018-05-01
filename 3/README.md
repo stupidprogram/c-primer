@@ -36,3 +36,6 @@ for (auto it = text.begin(); it != text.end() && !it->empty(); ++it)
         cout << toupper(i) ;
     }
 }
+
+3-26:
+没有两个迭代器相加这个操作。
