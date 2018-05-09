@@ -53,3 +53,28 @@ e)不合法    f）iter解引用之后是否是空字符串，之后再将iter
 
 4-27:
 a) 3    b) 7    c) 1    d) 1
+
+4-29:
+第一条输出10    第二条输出1
+
+4-30:
+a) (sizeof x) + y    b) sizeof(p->men[i])    c) (sizeof a) < b    d) 无需改变
+
+4-31:
+前置和后置效果一样并无影响
+
+4-32:
+当范围没超过的时候运行循环体内的语句
+
+4-33:
+若someValue不为0，结果是y+1，否则结果是y—1
+
+4-34:
+a) fval转换为布尔类型    b)转换为double    c)转换为double  
+
+4-35:
+a) 'a'先转为int，结果再转换为char    b) ival先转换为double，ui转换为double，最后结果转换为float
+c) ui先转换为float，结果再转换为double    d) ival先转换为float，然后和fval先转换为double，最后结果再转换为char
+
+4-35:
+i *= static_cast<int>(d)
